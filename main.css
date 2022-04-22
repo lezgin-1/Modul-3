@@ -83,11 +83,26 @@ float: right;
 .ikon{
 	display: none;
 	z-index: 999;
+	position: absolute;
+	right: 20px;
+	top: 12px;
 }
 .fa-bars{
-	font-size: 20px;
-	margin-right: 20px;
+	font-size: 25px;
 	color: black;
+	cursor: pointer;
+}
+
+.ikon-2{
+	z-index: 999;
+	position: absolute;
+	right: 20px;
+	top: 12px;
+	display: none;
+}
+.fa-circle-minus{
+	font-size: 25px;
+	color: #fff;
 	cursor: pointer;
 }
 
@@ -113,6 +128,11 @@ float: right;
 .navv li{
 	list-style: none;
 	color: #ffffff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.navv li:hover{
+	color: crimson;
 }
 
 /* HEADER END */
@@ -167,6 +187,11 @@ float: right;
 	border-left: none;
 	padding: 6px 0;
 	cursor: pointer;
+	transition: 0.5s;
+}
+.mini ul li:hover{
+	background: crimson;
+	color: #ffffff;
 }
 
 .box-1 .u, .box-2 .u{
@@ -208,7 +233,7 @@ float: right;
 		
 	}
 	.btn{
-		margin-left: 20px;
+		width: 150px
 	}
 	.nav{
 		display: none;
