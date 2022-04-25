@@ -2,93 +2,99 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="main.css">
-	<script src="app.js" defer></script>
-	<script src="https://kit.fontawesome.com/3fab871861.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/3fab871861.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<div class="container">
-		<div class="navv">
-			<ul>
-				<li>БАНК</li>
-				<li>БИЗНЕС</li>
-				<li>ИНВЕСТИЦИИ</li>
-				<li>СТРАХОВАНИЕ</li>
-				<li>МОБАЙЛ</li>
-				<li>ПУТЕШЕСТВИЯ</li>
-				<li>РАЗВЛЕЧЕНИЯ</li>
-			</ul>
-		</div>
-		<div class="header">
-			<div class="logo">
-				<img src="images/bank.svg" alt="images">
-			</div>
-			<div class="nav">
-				<ul>
-					<li>БАНК</li>
-					<li>БИЗНЕС</li>
-					<li>ИНВЕСТИЦИИ</li>
-					<li>СТРАХОВАНИЕ</li>
-					<li>МОБАЙЛ</li>
-					<li>ПУТЕШЕСТВИЯ</li>
-					<li>РАЗВЛЕЧЕНИЯ</li>
-				</ul>
-			</div>
+    <div class="container">
+        <div class="navv">
+            <ul>
+                <li>БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+        </div>
+        <div class="header">
+            <div class="logo">
+                <img src="images/bank.svg" alt="images">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>БАНК</li>
+                    <li>БИЗНЕС</li>
+                    <li>ИНВЕСТИЦИИ</li>
+                    <li>СТРАХОВАНИЕ</li>
+                    <li>МОБАЙЛ</li>
+                    <li>ПУТЕШЕСТВИЯ</li>
+                    <li>РАЗВЛЕЧЕНИЯ</li>
+                </ul>
+            </div>
 
-			
 
-			<div class="btn">
-				<button>ВОЙТИ</button>
-			</div>
-			<div class="ikon">
-				<i class="fa-solid fa-bars"></i>
-			</div>
-			<div class="ikon-2">
-				<i class="fa-solid fa-circle-minus"></i>
-			</div>
-		</div>
 
-		<div class="konvert">
-			<div class="h1">
-				<h1>Конвертер валют онлайн</h1>
-			</div>
-			<div class="mini">
-				<div class="mini-1">
-					<div class="box-1">
-						<p class="u">У меня есть </p>
-						<ul>
-							<li>RUB</li>
-							<li>USD</li>
-							<li>EUR</li>
-							<li>GBP</li>
-						</ul>
-						<div class="convert">
-							<input type="text" placeholder="Enter...">
-							<p class="rub">1 RUB = 0.0135 USD</p>
-						</div>
-					</div>
-					<div class="box-2">
-						<p class="u">У меня есть </p>
-						<ul>
-							<li>RUB</li>
-							<li>USD</li>
-							<li>EUR</li>
-							<li>GBP</li>
-						</ul>
-						<div class="convert">
-							<input type="text" placeholder="Enter...">
-							<p>1 RUB = 0.0135 USD</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+            <div class="btn">
+                <button>ВОЙТИ</button>
+            </div>
+            <div class="ikon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="ikon-2">
+                <i class="fa-solid fa-circle-minus"></i>
+            </div>
+        </div>
+
+        <div class="konvert">
+            <div class="word-h1">
+                <h1>Конвертер валют онлайн</h1>
+            </div>
+            <div class="boxes">
+                <div class="box-1">
+                    <p class="text">У меня есть </p>
+                    <ul class="exchange">
+                        <li id="RUB">RUB</li>
+                        <li id="USD">USD</li>
+                        <li id="EUR">EUR</li>
+                        <li id="GBP">GBP</li>
+                    </ul>
+                    <div class="first_input">
+                        <input class="input" placeholder="Enter...">
+                        <p class="footer-1">QAQAAAAA</p>
+                    </div>
+                </div>
+
+                <div class="box-2">
+                    <p class="text-2">Хочу приобрести </p>
+                    <ul class="exchange-2">
+                        <li id="RUB">RUB</li>
+                        <li id="USD">USD</li>
+                        <li id="EUR">EUR</li>
+                        <li id="GBP">GBP</li>
+                    </ul>
+                    <div class="second_input">
+                        <input class="input" placeholder="Enter...">
+                        <p class="footer-2">1 RUB = 0.012848 USD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <script src="script.js"></script>
 </body>
 
 </html>
